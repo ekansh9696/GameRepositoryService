@@ -1,4 +1,4 @@
-package example.micronaut
+package com.gameCRUD
 
 import io.micronaut.runtime.Micronaut.*
 
