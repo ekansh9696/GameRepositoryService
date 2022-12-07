@@ -4,6 +4,7 @@ plugins {
     id("org.jetbrains.kotlin.plugin.allopen") version "1.6.21"
     id("com.github.johnrengelman.shadow") version "7.1.2"
     id("io.micronaut.application") version "3.6.3"
+    id "com.medly.norm" version "0.0.7"
 }
 
 version = "0.1"
@@ -25,12 +26,12 @@ dependencies {
     implementation("io.micronaut.sql:micronaut-jdbc-hikari")
     runtimeOnly("ch.qos.logback:logback-classic")
     compileOnly("org.graalvm.nativeimage:svm")
+    testImplementation "com.medly.norm:runtime:$normVersion"
 
     implementation("io.micronaut:micronaut-validation")
-
+    implementation ("org.liquibase:liquibase-core:4.11.0")
     runtimeOnly("com.fasterxml.jackson.module:jackson-module-kotlin")
     runtimeOnly("org.postgresql:postgresql")
-
 }
 
 
@@ -53,6 +54,16 @@ tasks {
         }
     }
 }
+
+norm {
+    jdbcUrl = "jdbc:postgresql://localhost:5432/postgres"
+    username = "postgres"
+    password = "postgres"
+    inputDir = file("\\src\\main\\sql")
+    outDir = file("\\src\\main\\gen")
+    basePath = file("\\src\\main\\gen")
+}
+
 graalvmNative.toolchainDetection = false
 micronaut {
     runtime("netty")
