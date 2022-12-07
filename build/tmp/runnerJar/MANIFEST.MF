@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+Class-Path: resources/ classes/ libs/micronaut-kotlin-runtime-3.2.2.jar 
+ libs/micronaut-liquibase-5.4.1.jar libs/micronaut-jdbc-hikari-4.7.2.jar
+  libs/micronaut-jdbc-4.7.2.jar libs/micronaut-validation-3.7.3.jar libs
+ /micronaut-http-client-3.7.3.jar libs/micronaut-http-server-netty-3.7.3
+ .jar libs/micronaut-http-netty-3.7.3.jar libs/micronaut-http-server-3.7
+ .3.jar libs/micronaut-websocket-3.7.3.jar libs/micronaut-http-client-co
+ re-3.7.3.jar libs/micronaut-management-3.7.3.jar libs/micronaut-runtime
+ -3.7.3.jar libs/micronaut-router-3.7.3.jar libs/micronaut-jackson-datab
+ ind-3.7.3.jar libs/micronaut-jackson-core-3.7.3.jar libs/micronaut-json
+ -core-3.7.3.jar libs/micronaut-http-3.7.3.jar libs/micronaut-context-3.
+ 7.3.jar libs/micronaut-aop-3.7.3.jar libs/micronaut-buffer-netty-3.7.3.
+ jar libs/micronaut-inject-3.7.3.jar libs/runtime-0.0.7.jar libs/jakarta
+ .annotation-api-2.1.1.jar libs/jackson-datatype-jdk8-2.13.4.jar libs/ja
+ ckson-datatype-jsr310-2.13.4.jar libs/jackson-databind-2.13.4.2.jar lib
+ s/jackson-annotations-2.13.4.jar libs/jackson-core-2.13.4.jar libs/jack
+ son-module-kotlin-2.13.4.jar libs/kotlin-reflect-1.6.21.jar libs/kotlin
+ -stdlib-jdk8-1.6.21.jar libs/liquibase-core-4.14.0.jar libs/logback-cla
+ ssic-1.2.11.jar libs/postgresql-42.5.0.jar libs/javax.annotation-api-1.
+ 3.2.jar libs/netty-handler-proxy-4.1.84.Final.jar libs/netty-codec-http
+ 2-4.1.84.Final.jar libs/netty-codec-http-4.1.84.Final.jar libs/netty-co
+ dec-socks-4.1.84.Final.jar libs/netty-handler-4.1.84.Final.jar libs/net
+ ty-codec-4.1.84.Final.jar libs/netty-transport-native-unix-common-4.1.8
+ 4.Final.jar libs/netty-transport-4.1.84.Final.jar libs/netty-buffer-4.1
+ .84.Final.jar libs/micronaut-core-reactive-3.7.3.jar libs/reactive-stre
+ ams-1.0.4.jar libs/reactor-core-3.4.23.jar libs/micronaut-core-3.7.3.ja
+ r libs/HikariCP-4.0.3.jar libs/slf4j-api-1.7.36.jar libs/snakeyaml-1.33
+ .jar libs/validation-api-2.0.1.Final.jar libs/kotlin-stdlib-jdk7-1.6.21
+ .jar libs/kotlin-stdlib-1.6.21.jar libs/jaxb-api-2.3.1.jar libs/kotlin-
+ stdlib-common-1.6.21.jar libs/netty-resolver-4.1.84.Final.jar libs/nett
+ y-common-4.1.84.Final.jar libs/logback-core-1.2.11.jar libs/jakarta.inj
+ ect-api-2.0.1.jar libs/config-1.4.2.jar libs/opencsv-5.6.jar libs/check
+ er-qual-3.5.0.jar libs/annotations-13.0.jar libs/javax.activation-api-1
+ .2.0.jar libs/commons-text-1.9.jar libs/commons-lang3-3.12.0.jar libs/c
+ ommons-collections4-4.4.jar
+Main-Class: com.gameCRUD.ApplicationKt
+

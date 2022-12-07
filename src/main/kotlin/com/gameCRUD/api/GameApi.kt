@@ -1,4 +1,4 @@
-package kotlin.com.gameCRUD.api
+package com.gameCRUD.api
 
 import com.gameCRUD.core.Game
 import com.gameCRUD.core.GameService
